@@ -48,10 +48,10 @@ Asena.addCommand(
 )
 
 Asena.addCommand(
-  { pattern: "help ?(.*)", fromMe: true, dontAddCommandList: true },
+  { pattern: "allcmd ?(.*)", fromMe: true, dontAddCommandList: true },
   async (message, match) => {
     let CMD_HELP = `╭────────────────╮
-    ᴡʜᴀᴛsᴀᴘᴘ-ʙᴏᴛ
+  ᴛᴀᴜʀᴜs-ʙᴏᴛ-ᴀʟʟ-ᴄᴍᴅ
 ╰────────────────╯
 
 ╭────────────────
